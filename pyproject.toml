@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "tgaction"
+version = "0.1.0"
+description = ""
+authors = ["Vladislav-Shi <vlad.shirobockow@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.7.0"
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.30"}
+tinkoff-investments = "^0.2.0b100"
+pandas = "^2.2.2"
+pydantic-settings = "^2.3.1"
+aiosqlite = "^0.20.0"
+alembic = "^1.13.1"
+motor = "^3.4.0"
+beanie = "^1.26.0"
+redis = "^5.0.5"
+aioredis = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

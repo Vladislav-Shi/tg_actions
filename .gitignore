@@ -1,0 +1,4 @@
+/settings/.env
+/local-docker-compose.yml
+/.venv/
+/.idea
